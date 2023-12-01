@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.noaa.gov/sites/default/files/styles/landscape_width_650/public/legacy/image/2019/Jun/iStock-477110708%20%281%29.jpg?itok=qLIDK-SD);
+    background-size: 100vw 100vh;
+}
+
+.card {
+    background: #000000d0;
+    color: white;
+    padding: 58px;
+    border-radius: 42px;
+    width: 100%;
+    margin: 122px 12px 12px 12px;
+    max-width: 420px;
+}
+
+.searchbar {
+    width: 352px;
+    height: 35px;
+
+    border-radius: 19px;
+    background: #7c7c7c2b;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    font-size: 20px;
+}
+
+button {
+    margin: 7px;
+    height: 3em;
+    border-radius: 1.4em;
+    width: 3em;
+    background: #ffffff2b;
+}
+button:hover{
+    background-color:rgb(191, 182, 182);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+button svg{
+    color: aliceblue;
+}

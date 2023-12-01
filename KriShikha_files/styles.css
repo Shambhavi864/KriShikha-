@@ -1,0 +1,427 @@
+#title{
+    background-color: transparent;
+    padding: 82px ;
+}
+body{
+    background-image: url('profile.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.card-title{
+    color: #494f4b;
+}
+#searchbar {
+    width: 352px;
+    height: 35px;
+     display: inline-block;
+    border-radius: 19px;
+    background: #7c7c7c2b;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    font-size: 20px;
+}
+.container{
+    width: 100%;
+    min-height: 5vh;
+     padding:3%;
+    background-size: cover;
+     display: flex;
+     align-items: center;
+    justify-content: center;
+   }
+
+   .search-bar button img{
+     width:25px;
+   }
+
+   .search-bar button{
+     border: 0;
+     border-radius: 50%;
+     width: 60px;
+     height: 60px;
+     background: #68B984;
+     cursor: pointer;
+   }
+
+  .search-bar{
+
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 1px 2px;
+  }
+
+  .search-bar input{
+    width: 400px;
+    flex:1;
+       height: 50px;
+       padding: 12px 20px;
+       box-sizing: border-box;
+       border: 2px  ;
+       border-radius: 20px;
+       font-size: 20px;
+       background: rgba(255,255,255,0.2);
+  }
+button {
+    margin: 7px;
+    height: 3em;
+    border-radius: 1.4em;
+    width: 3em;
+    background: #ffffff2b;
+}
+button:hover{
+    background-color:rgb(191, 182, 182);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+#search{
+    display: inline-block;
+    margin-left: 420px;
+    display: flex;
+    margin-top: -52px;
+}
+#testimonials{
+
+    text-align: left;
+
+    color: white;
+    background-color: #ADE792;
+
+
+}
+
+.testimonial-text{
+  float: left;
+    padding: 4.5%;
+   text-align: left;
+    line-height: 3.5rem;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.testimonial-img{
+    border-radius: 50%;
+    height: 8rem ;
+    width: auto;
+    margin: 2rem;
+
+}
+
+.carousel-item{
+    padding: 4% 10%;
+}
+.navbar{
+    margin-bottom: 4rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#features{
+    padding: 7% 15%;
+    position: relative;
+    border-top: 4rem;
+}
+
+.options{
+  padding-top: 2rem;
+  line-height: 2rem;
+  color: #fff;
+
+}
+
+.options a{
+    text-decoration: none;
+}
+
+.title-image{
+    width: 100%;
+    /* position: absolute; */
+    /* transform: rotate(25deg); */
+    border-radius: 3%;
+    margin: 3px auto;
+}
+
+.feature-box{
+    padding: 4.5% ;
+    text-align: center;
+    background-color: #fff;
+    z-index: 1;
+}
+
+ .des{
+    color: #68B984;
+    text-align: left;
+}
+
+/*
+.icon{
+    color: #68B984;
+
+    padding: 4%;
+} */
+
+/* testimonial section */
+
+
+
+
+/* press section */
+
+ #press{
+    background-color: #B6E2A1;
+    padding: 3%;
+    text-align: center;
+}
+
+.press-logo{
+    width: 20%;
+    padding: 2%;
+}
+
+
+.search{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #68B984;
+    cursor: pointer;
+}
+.search-bar img{
+    width:25px;
+  }
+
+  #searchbar{
+    width: 350px;
+    flex:1;
+    height: 50px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border: 2px;
+    font-size: 20px;
+    background: rgba(255,255, 255,0.2)
+  }
+
+  .search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #68B984;
+    cursor: pointer;
+  }
+/* pricing */
+
+.card1, .card2{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.card3{
+    margin-top: 2rem;
+    margin-bottom: 1.9rem;
+}
+
+.btn-lg{
+    width: 80%;
+}
+.navv{
+    background-color: #7c7c7c2b;
+    padding: 10px;
+    font-size: small;
+    margin-right: 25px;
+    border-radius: 95px;
+    text-decoration: none;
+}
+
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.map{
+    background-color: #7c7c7c2b;
+    align-items: baseline;
+    display: flex;
+    justify-content: center;
+    margin-left: 1067px;
+    margin-top: -118px;
+    height: 36px;
+    border-radius: 15px;
+    margin-right: -186px;
+    margin-bottom: 132px;
+    color: grey;
+    font-size: small;
+    width: 140px;
+}
+.col{
+    padding: 3% 2%;
+}
+
+
+@media (max-width:1024px)
+{
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        transform: rotate(0);
+    }
+}
+
+#cta{
+    background-color: #B6E2A1;
+    text-align: left;
+    padding: 100px;
+}
+.cta-text{
+  text-align: left;
+    font-weight: bolder;
+    color: white;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 5rem;
+}
+
+#cta ul{
+  color: white;
+  line-height: 2rem;
+  line-height: 3.5rem;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+#cta h2{
+   color: white;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+    background-color: #fff;
+    padding-top: 100px;
+    line-height: 2rem;
+
+}
+
+@media (max-width:1024px) {
+    .cta-text{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+.social-icon{
+    margin: 20px 10px;
+}
+}
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(https://www.noaa.gov/sites/default/files/styles/landscape_width_650/public/legacy/image/2019/Jun/iStock-477110708%20%281%29.jpg?itok=qLIDK-SD); */
+    background-size: 100vw 100vh;
+    /* background-color: #ADE792; */
+}
+
+
+.search{
+    display: contents;
+}
+.search--bar {
+    /* width: 300px; */
+    height: 35px;
+
+    border-radius: 19px;
+    background: #7c7c7c2b;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    font-size: 20px;
+}   
+#card {
+    background: #000000d0;
+    color: white;
+    padding: 58px;
+    height: 100vw;
+    width: 100%;
+    margin: 0px 0px -895px;
+    
+}
+
+
+button {
+    margin: 7px;
+    height: 3em;
+    border-radius: 1.4em;
+    width: 3em;
+    display: inline;
+    background: #ffffff2b;
+}
+button:hover{
+    background-color:rgb(191, 182, 182);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+button svg{
+    color: aliceblue;
+}
+
+
+.example input,button{
+    display: inline-block;
+}
+
+
+.btn {
+
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 6px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 48px;
+    background-color: cadetblue;
+  }
+  
+  .btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

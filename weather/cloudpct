@@ -1,0 +1,55 @@
+
+
+                <td style="width: 0%;"><span id="feels_like2"></span></td>
+                <td style="width: 15%;"><span id="humidity2"></span></td>
+                <td style="width: 8%;"><span id="max_temp2"></span></td>
+                <td style="width: 15%;"><span id="min_temp2"></span></td>
+                <td style="width: 12%;"><span id="sunrise2"></span></td>
+                <td style="width: 12%;"><span id="sunset2"></span></td>
+                <td style="width: 12%;"><span id="temp2"></span></td>
+                <td style="width: 12%;"><span id="wind_degrees2"></span></td>
+                <td style="width: 12%;"><span id="wind_speed2"></span></td>
+
+
+                cloud_pct1.innerHTML = response.cloud_pct
+		feels_like1.innerHTML = response.feels_like
+		humidity1.innerHTML = response.humidity
+		max_temp1.innerHTML = response.max_temp
+		min_temp1.innerHTML = response.min_temp
+		sunrise1.innerHTML = response.sunrise
+		sunset1.innerHTML = response.sunset
+		temp1.innerHTML = response.temp
+		wind_degrees1.innerHTML = response.wind_degrees
+		wind_speed1.innerHTML = response.wind_speed
+
+		cloud_pct2.innerHTML = response.cloud_pct
+		feels_like2.innerHTML = response.feels_like
+		humidity2.innerHTML = response.humidity
+		max_temp2.innerHTML = response.max_temp
+		min_temp2.innerHTML = response.min_temp
+		sunrise2.innerHTML = response.sunrise
+		sunset2.innerHTML = response.sunset
+		temp2.innerHTML = response.temp
+		wind_degrees2.innerHTML = response.wind_degrees
+		wind_speed2.innerHTML = response.wind_speed
+
+		cloud_pct3.innerHTML = response.cloud_pct
+		feels_like3.innerHTML = response.feels_like
+		humidity3.innerHTML = response.humidity
+		max_temp3.innerHTML = response.max_temp
+		min_temp3.innerHTML = response.min_temp
+		sunrise3.innerHTML = response.sunrise
+		sunset3.innerHTML = response.sunset
+		temp3.innerHTML = response.temp
+		wind_degrees3.innerHTML = response.wind_degrees
+		wind_speed3.innerHTML = response.wind_speed
+
+        <td style="width: 0%;"><span id="feels_like3"></span></td>
+                <td style="width: 15%;"><span id="humidity3"></span></td>
+                <td style="width: 8%;"><span id="max_temp3"></span></td>
+                <td style="width: 15%;"><span id="min_temp3"></span></td>
+                <td style="width: 12%;"><span id="sunrise3"></span></td>
+                <td style="width: 12%;"><span id="sunset3"></span></td>
+                <td style="width: 12%;"><span id="temp3"></span></td>
+                <td style="width: 12%;"><span id="wind_degrees3"></span></td>
+                <td style="width: 12%;"><span id="wind_speed3"></span></td>
