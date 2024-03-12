@@ -1,4 +1,4 @@
-# KriShikha
+# KriShikha - for female farmers
 
 
 The goal of our website Krishikha, which in hindi means 'female farmer', aimed especially at the female farmer workforce, is to provide information about the services or schemes available to krishikas.
